@@ -1,6 +1,6 @@
 {
   "name": "trailpack-datastore",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Parent to the Database Trailpacks (waterline, bookshelf, sequelize, etc)",
   "main": "index.js",
   "directories": {
