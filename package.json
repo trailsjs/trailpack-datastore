@@ -1,5 +1,5 @@
 {
-  "name": "trailpack-database",
+  "name": "trailpack-datastore",
   "version": "0.0.1",
   "description": "Parent to the Database Trailpacks (waterline, bookshelf, sequelize, etc)",
   "main": "index.js",
@@ -11,12 +11,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/trailsjs/trailpack-database.git"
+    "url": "git+https://github.com/trailsjs/trailpack-datastore.git"
   },
   "keywords": [
     "trails",
     "trailsjs",
-    "database",
+    "datastore",
     "orm",
     "persistence",
     "waterline",
@@ -27,7 +27,16 @@
   "author": "Trails.js Team <hello@trailsjs.io>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/trailsjs/trailpack-database/issues"
+    "url": "https://github.com/trailsjs/trailpack-datastore/issues"
   },
-  "homepage": "https://github.com/trailsjs/trailpack-database#readme"
+  "homepage": "https://github.com/trailsjs/trailpack-datastore#readme",
+  "devDependencies": {
+    "eslint": "^2.0.0-alpha-2",
+    "eslint-config-trails": "^1.0.1",
+    "smokesignals": "0.0.8",
+    "trails": "0.0.23"
+  },
+  "eslintConfig": {
+    "extends": "trails"
+  }
 }
