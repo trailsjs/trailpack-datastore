@@ -17,3 +17,4 @@ module.exports = class DatastoreTrailpack extends Trailpack {
     super(app, config)
   }
 }
+
