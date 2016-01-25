@@ -41,7 +41,7 @@
     "extends": "trails"
   },
   "dependencies": {
-    "lodash": "^3.10.1",
-    "trailpack": "0.0.18"
+    "lodash": "^4.0.0",
+    "trailpack": "latest"
   }
 }

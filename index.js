@@ -1,6 +1,7 @@
 'use strict'
 
 const Trailpack = require('trailpack')
+const lib = require('./lib')
 
 /**
  * Datastore Trailpack
@@ -15,6 +16,10 @@ module.exports = class DatastoreTrailpack extends Trailpack {
       throw new Error('trailpack-datastore must be subclassed. Do not load it directly.')
     }
     super(app, config)
+  }
+
+  initialize () {
+    lib.Util.assignModelStores(this.app.models, this.app.config)
   }
 }
 
