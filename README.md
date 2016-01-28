@@ -20,7 +20,21 @@ class WaterlineTrailpack extends DatastoreTrailpack {
 }
 ```
 
-## API
+## Configuration
+
+### `migrate`
+
+#### `none`
+Do not perform any schema migration.
+
+#### `create`
+Create any new tables/columns, but do not alter any existing tables or columns.
+
+#### `alter`
+Alter the schema to match the new schema of the Models.
+
+#### `drop`
+Drop all tables and re-create them.
 
 ## Contributing
 We love contributions! Please check out our [Contributor's Guide](https://github.com/trailsjs/trails/blob/master/CONTRIBUTING.md) for more
