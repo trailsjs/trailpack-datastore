@@ -1,5 +1,6 @@
 'use strict'
 
+const _ = require('lodash')
 const Trailpack = require('trailpack')
 const lib = require('./lib')
 
@@ -15,7 +16,7 @@ module.exports = class DatastoreTrailpack extends Trailpack {
     if (!config) {
       throw new Error('trailpack-datastore must be subclassed. Do not load it directly.')
     }
-    super(app, config)
+    super(app, _.defaultsDeep(config, { api: require('./api') }))
   }
 
   initialize () {
