@@ -31,10 +31,10 @@
   },
   "homepage": "https://github.com/trailsjs/trailpack-datastore#readme",
   "devDependencies": {
-    "eslint": "^2.0.0",
-    "eslint-config-trails": "^1.0.1",
-    "mocha": "^2.3.4",
-    "smokesignals": "^1.2.0",
+    "eslint": "^2.10.0",
+    "eslint-config-trails": "^1.0.6",
+    "mocha": "^2.3.5",
+    "smokesignals": "^1.2.2",
     "trails": "^1.0.0"
   },
   "eslintConfig": {

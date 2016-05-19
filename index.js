@@ -20,7 +20,7 @@ module.exports = class DatastoreTrailpack extends Trailpack {
   }
 
   initialize () {
-    lib.Util.assignModelStores(this.app.models, this.app.config)
+    lib.Util.assignModelStores(this.app)
   }
 }
 
