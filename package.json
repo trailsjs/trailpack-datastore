@@ -1,6 +1,6 @@
 {
   "name": "trailpack-datastore",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Parent to the Database Trailpacks (waterline, bookshelf, sequelize, etc)",
   "main": "index.js",
   "directories": {
@@ -31,18 +31,18 @@
   },
   "homepage": "https://github.com/trailsjs/trailpack-datastore#readme",
   "devDependencies": {
-    "eslint": "^2.10.0",
-    "eslint-config-trails": "^1.0.6",
-    "mocha": "^2.3.5",
+    "eslint": "^2.13.1",
+    "eslint-config-trails": "^1.0.7",
+    "mocha": "^2.5.3",
     "smokesignals": "^1.2.2",
-    "trails": "^1.0.0"
+    "trails": "^1.0.4"
   },
   "eslintConfig": {
     "extends": "trails"
   },
   "dependencies": {
-    "lodash": "^4.0.0",
-    "trailpack": "^1.0.0",
+    "lodash": "^4.13.1",
+    "trailpack": "^1.0.5",
     "trails-service": "^1.0.0-beta-2"
   }
 }
