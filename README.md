@@ -1,5 +1,7 @@
 # trailpack-datastore
 
+## Note: Deprecated as of v3. See [trailsjs/trailpack/datastore.js](https://github.com/trailsjs/trailpack/blob/master/datastore.js).
+
 [![Gitter][gitter-image]][gitter-url]
 [![NPM version][npm-image]][npm-url]
 [![Build status][ci-image]][ci-url]
